@@ -1,0 +1,40 @@
+line {
+    position: absolute !important;
+    pointer-events: none;
+}
+
+line .draw {
+    -webkit-transform-origin: -5px -5px;
+
+    border-bottom: 2px dashed #fff;
+    display: inline-block;
+    height: 1px;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+line [class*=icon-] {
+    color: #fff;
+    opacity: 0;
+}
+
+line [class*=icon-]:hover {
+    opacity: 1;
+}
+
+line .left, line .right {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 22px;
+    pointer-events: all;
+    z-index: 10;
+}
+
+line .left { left: 0; }
+line .right { right: 0; }

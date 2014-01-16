@@ -1,0 +1,30 @@
+
+note {
+    display: inline-block;
+    position: absolute !important;
+}
+
+note textarea {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    display: inline-block;
+    resize: none;
+}
+
+note:active textarea,
+note:hover textarea {
+    background: rgba(255, 255, 255, 0.25);
+    outline: 1px dashed #fff;
+    resize: both;
+}
+
+note:active [class*=icon-],
+note:hover [class*=icon-] {
+    display: inline-block;
+}
+
+note [class*=icon-] {
+    color: #fff;
+    display: none;
+}

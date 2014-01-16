@@ -1,0 +1,37 @@
+
+cue {
+    display: block;
+    height: 168px;
+    left: 50%;
+    margin: 0 auto;
+    margin-left: -425px;
+    margin-top: 100px;
+    opacity: 0.75;
+    position: absolute;
+    width: 6px;
+    z-index: 100;
+}
+
+cue .draw {
+    background: url('../image/cue.png') no-repeat;
+    background-size: 6px 168px;
+    height: 168px;
+    width: 6px;
+}
+
+cue [class*=icon-] {
+    color: #fff;
+    opacity: 0;
+}
+
+cue:hover [class*=icon-] {
+    opacity: 1;
+}
+
+cue .rotate {
+    -webkit-transform: translate(-100%, -50%);
+    transform: translate(-100%, -50%);
+
+    position: absolute;
+    top: 50%;
+}

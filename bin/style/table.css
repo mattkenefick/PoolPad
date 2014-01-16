@@ -1,0 +1,41 @@
+
+table {
+    background: url('../image/table.png') no-repeat;
+    background-size: 790px 454px;
+    display: block;
+    height: 454px;
+    margin: 0 auto;
+    position: relative;
+    width: 790px;
+    opacity: 0.75;
+}
+
+table [class*=icon-] {
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+
+    position: absolute;
+    left: 50%;
+    height: 25px;
+}
+
+table .move {
+    left: 50%;
+    height: 25px;
+    top: -25px;
+}
+
+table .rotate {
+    left: 50%;
+    height: 25px;
+    bottom: 25px;
+}
+
+table .resize {
+    padding-top: 10px;
+    bottom: -25px;
+}
+
+/*.rotate.ui-draggable-dragging {
+    display: none !important
+}*/

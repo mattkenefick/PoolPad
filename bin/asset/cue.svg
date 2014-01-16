@@ -1,0 +1,13 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+     height="100%" viewBox="0 0 252 144" enable-background="new 0 0 252 144" xml:space="preserve">
+    <g id="cue">
+        <polygon fill="#FFFFFF" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" points="84.825,53.31 182.289,52.255
+            182.219,54.748 84.791,54.526    "/>
+        <path fill="#FFFFFF" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" d="M83.782,53.222"/>
+        <line fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" x1="85.309" y1="53.389" x2="85.278" y2="54.531"/>
+        <line fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" x1="87.464" y1="53.449" x2="87.435" y2="54.548"/>
+        <line fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" x1="87.464" y1="53.449" x2="87.469" y2="53.324"/>
+        <polyline points="172.706,52.358 172.641,54.726 150.93,54.676 150.988,52.593 172.5,52.353   "/>
+        <rect x="182.289" y="52.484" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" width="0.523" height="2.078"/>
+    </g>
+</svg>
